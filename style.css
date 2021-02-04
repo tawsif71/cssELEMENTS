@@ -1,0 +1,154 @@
+h1{
+   color: blue;
+   text-align: center;
+}
+.PBM{
+   background-color: aqua;
+   color: brown;
+padding: 25px;
+border: 5px solid red;
+margin: 30px;
+}
+
+.PBM2{
+   background-color:khaki;
+   color: orangered;
+   padding: 20px 50px 30px 40px ;
+   border-style: dotted;
+   border-color: green;
+   margin: 50px;
+}
+.PBM3{
+background-color: rosybrown;
+color: springgreen;
+padding:30px 70px 50px 60px ;
+border: 5px double black;
+margin: 70px;
+}
+body{
+   background: #dff9df;
+   color: #262626;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.p{
+   background-color: turquoise;
+   color: rgb(29, 16, 16);
+   border: 5px solid red;
+   border-radius: 30px;
+   padding-left: 400px;
+   margin: 50px;
+}
+
+
+.div{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+}
+p{
+   color: #fff;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+
+.content-box{
+background: #b71540;
+height: 200px;
+width: 400px;
+text-align: center;
+padding: 30px 70px 50px 60px ;
+margin: 100px;
+
+}
+.content{
+   background: #0c2461;
+   height: 200px;
+   width: 400px;
+   text-align:center;
+   padding:30px 70px 50px 60px ;
+   margin: 100px;
+   
+}
+.border-box{
+   background: #079992;
+   height: 200px;
+   width: 400px;
+   text-align: center;
+   padding:30px 70px 50px 60px ;
+   margin: 100px;
+   }
+   
+   .green-box{
+      width: 600px;
+      height: 350px;
+      background: green;
+      position: relative;
+   }
+    .red-box{
+       width: 180px;
+       height: 180px;
+       background: red;
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       top: 0;
+       margin: auto;
+       border-radius: 50%;
+    }
+   .overflow{
+      width: 300px;
+      height: 200px;
+      border: 5px solid red;
+      overflow: scroll;
+   }
+   .one{
+      width: 100px;
+      height: 100px;
+      background:green;
+      margin-bottom: 10px;
+   }
+   .two{
+      width: 100px;
+      height: 100px;
+      background :blueviolet;
+      margin-bottom: 10px;
+   }
+   .one:hover+ .two{
+      background: red;
+   }
+   .box5{
+      width: 350px;
+      height: 250px;
+      border: 5px solid blueviolet;
+      padding: 10px;
+      text-align: center;
+      text-align-last:center;
+   }
+   span{
+      background-color: chartreuse;
+      border: 3px solid red;
+   }
+  .main{
+    background-color: #b71540; 
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+    transition: width 2s linear; 
+   }
+   .main:hover{
+      width: 400px;
+   }
+   .text2{
+      color: white; 
+      padding: 60px;
+   }
+   a.My-link:hover{
+      color: red;
+   }
